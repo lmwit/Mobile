@@ -54,7 +54,7 @@ export default {
             
             that.$store.dispatch('set_users', decode)
 
-            that.$router.push('/');
+            that.$router.push('/info');
         })
     }
   },

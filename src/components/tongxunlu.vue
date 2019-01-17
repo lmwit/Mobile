@@ -1,11 +1,10 @@
 <template>
-    <div></div>
+    <div>通讯录</div>
 </template>
 
 <script>
-
 export default {
-    name:'index'
+    name: "tongxunlu"
 }
 </script>
 

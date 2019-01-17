@@ -7,9 +7,7 @@ const router =  new Router({
   routes: [
     {
       path: '/',
-      name: 'index',
-      component: () => import('./views/index.vue')
-
+      redirect: '/login'
     },
     {
         path: '/login',
@@ -21,6 +19,38 @@ const router =  new Router({
         name: 'register',
         component: () => import('./views/register.vue')
       },
+      {
+        path: '/info',
+        name: 'info',
+        component: () => import('./components/info.vue'),
+        meta: {
+            showFooter: true
+        }
+      },
+      {
+        path: '/tongxunlu',
+        name: 'tongxunlu',
+        component: () => import('./components/tongxunlu.vue'),
+        meta: {
+            showFooter: true
+        }
+      },
+      {
+        path: '/faxian',
+        name: 'faxian',
+        component: () => import('./components/faxian.vue'),
+        meta: {
+            showFooter: true
+        }
+      },
+      {
+        path: '/me',
+        name: 'me',
+        component: () => import('./components/me.vue'),
+        meta: {
+            showFooter: true
+        }
+      }
   ]
 })
 

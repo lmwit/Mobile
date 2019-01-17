@@ -1,11 +1,10 @@
 <template>
-    <div></div>
+    <div>我的</div>
 </template>
 
 <script>
-
 export default {
-    name:'index'
+    name: "me"
 }
 </script>
 
