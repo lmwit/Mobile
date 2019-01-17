@@ -1,5 +1,7 @@
 <template>
-    <div>11111122222222</div>
+    <div>
+        <i class="iconfont icon-faxian"></i>
+    </div>
 </template>
 
 <script>
